@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="utils.js"></script>
+    <script src="tether.js"></script>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="Popup.js"></script>
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body style="min-width:300px;">
+
+
+<div class="container"  id="button_container"> 
+    <button type="button" id="start" class="btn btn-primary col-6 offset-3"> Start </button>    
+</div>
+    
+<div class="content"> 
+    <!--<div class="song_info">
+        <h1 id="song_name"> Placed Holder Song </h1>
+        <p1 id="time_remaining">  Place Holder Time </p1>
+
+    </div>-->
+    
+    <div id="question" hidden>
+        <form id="form">
+            <h4>What Song Just Played?</h4>
+            <input type="radio" name="song_name" value="0" ><p1 id="Q0"> Song 1 </p1> <br>
+            <input type="radio" name="song_name" value="1" ><p1 id="Q1"> Song 2 </p1> <br>
+            <input type="radio" name="song_name" value="2" ><p1 id="Q2"> Song 3 </p1> <br>
+            <input type="radio" name="song_name" value="3" ><p1 id="Q3"> Song 4 </p1><br>
+            <button type="submit" class="btn btn-primary" id="submit_button">Submit</button>
+        </form>  
+    </div>
+    
+    <div id="message_container" hidden>
+        <p1 id="message">Congrats you got it correct!</p1>
+    </div>
+    
+</div>
+
+
+
+
+</body>
+</html>

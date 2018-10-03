@@ -1,0 +1,22 @@
+{
+    "name": "MUSC 145 Study Helper",
+    "version": "1.0",
+    "description": "Plugin to help quiz you on songs from MUSC 145 playlist",
+    "icons": {
+        
+    },
+    "browser_action":{
+        "default_icon":{
+            
+        },
+        "default_title": "MUSC 145 Helper",
+        "default_popup": "testing.html"
+    },
+    "background": {
+        "scripts": ["Background.js","utils.js" ,"tether.js","jquery-3.2.1.js"],
+        "persistent": false
+    },
+    "manifest_version": 2,
+    "permissions": ["http://*/"]
+    
+}
